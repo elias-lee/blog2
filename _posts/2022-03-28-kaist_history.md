@@ -24,7 +24,7 @@ categories: [Korean, History, Public policy]
 
 **CHRONOLOGY**
 
-![Source: KAIST](https://raw.githubusercontent.com/elias-lee/elias-lee.github.io/master/assets/img/34393_craw2.jpeg)
+![Source: KAIST](https://raw.githubusercontent.com/elias-lee/elias-lee2.github.io/master/assets/img/34393_craw2.jpeg)
 
 
 Source: KAIST
