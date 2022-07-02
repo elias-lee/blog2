@@ -158,6 +158,7 @@ plugins:
   - jekyll-twitter-plugin
   - jekyll-scholar
   - jemoji
+  - jekyll-toc
 
 # Sitemap settings
 defaults:
