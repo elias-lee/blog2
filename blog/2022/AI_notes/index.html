@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Elias Junho Lee | AI_CLassNotes_Week2</title>
+    <meta name="author" content="Elias Junho Lee" />
+    <meta name="description" content="This are Class Notes From AI504 Class" />
+    <meta name="keywords" content="academic-website, portfolio-website" />
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
+    
+    <link rel="stylesheet" href="/blog2/assets/css/main.css">
+    <link rel="canonical" href="https://elias-lee.github.io/blog2/blog/2022/AI_notes/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/blog2/assets/js/theme.js"></script>
+    <script src="/blog2/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://elias-lee.github.io/blog2/"><span class="font-weight-bold">Elias</span> Junho  Lee</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog2/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog2/blog/">blog</a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog2/projects/">projects</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/blog2/publications/">publications</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/blog2/projects/">projects</a>
+                </div>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog2/teaching/">teaching</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">AI_CLassNotes_Week2</h1>
+    <p class="post-meta">June 21, 2022</p>
+    <p class="post-tags">
+      <a href="/blog2/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+        ·  
+        <a href="/blog2/blog/tag/KAIST">
+          <i class="fas fa-hashtag fa-sm"></i> KAIST</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+<script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<p>Disclaimer:
+This Page is a classNote from the Class AI504 week 2 taught by prof. Edwardchoi at KAIST
+<br>
+<br></p>
+
+<h1 id="week2-basic-machine-learning">Week2 Basic Machine Learning</h1>
+
+<h1 id="what-is-machine-learning">What is machine learning?</h1>
+
+<h2 id="ai">AI</h2>
+
+<p>AI: artificial intelligence is everything in a machine/computers that mimic human intelligence (does not necessarily needs the “Deep learning” component)
+<strong>ex) chess playing program</strong></p>
+
+<h2 id="machine-learning">Machine Learning</h2>
+
+<p>ML: Statistical method to teach machine to learn from data and execute specific task
+<strong>Ex) Spam Filtering</strong></p>
+
+<h2 id="deep-learning">Deep Learning</h2>
+
+<p>DL: Subdomain of Machine Learning, Applies neural network and massive data to execute machine learning
+Ex) ALpha Go</p>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/screenshot.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<h1 id="why-deep-learning">Why Deep Learning?</h1>
+
+<ul>
+  <li>We need less feature engineering</li>
+  <li>You dont need to define what feature are doglike or catlike</li>
+</ul>
+
+<h1 id="machine-learning-categories">Machine Learning Categories</h1>
+
+<h2 id="supervised-learning">Supervised Learning</h2>
+
+<p>Learn a function that maps an input (x) to an output (y)</p>
+
+<p>Ex) Image classification, translation, Image captioning</p>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<h2 id="unsupervised-learning">Unsupervised Learning</h2>
+
+<p>Learn a distribution/manifold function of data (x). Theres no label <strong>y</strong></p>
+
+<p>Ex) Clustering, Topic Model, Low-rank matrix factorization, Generative models</p>
+
+<h2 id="reinforcement-learning">Reinforcement Learning</h2>
+
+<p>There is an environment (E) and a set of action (A), learn a function that maximizes the long-term rewards (R)</p>
+
+<p>Ex) alpha-Go, any game</p>
+
+<p>The lines between Supervised Learning and Unsupervised Learning are a bit blurry. (Generative models and self-supervised learning)</p>
+
+<h1 id="optimization">Optimization</h1>
+
+<p>In all of the three categories (SL, UL, RL) you need to train your model (a.k.a learn a function)</p>
+
+<h2 id="how-to-train-a-model-fx-theta">How to train a model $f(x; \theta)$</h2>
+
+<ol>
+  <li>You need a goal (objective)</li>
+  <li>We need a function to achieve goal (objective function)</li>
+  <li>Define the loss function
+$loss (y,y’)$</li>
+  <li>Find the $\theta$  that minimizes (optimize)
+$loss(y, f(x;\theta))$</li>
+</ol>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled1.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<h3 id="gradient-descent">Gradient Descent</h3>
+
+<ul>
+  <li>Gradient Descent does not guarantee that you are in the global minimum
+    <ul>
+      <li>You need to iterate over a number of epochs to increase the chances of achieving a global minimum</li>
+    </ul>
+  </li>
+</ul>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled2.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<h3 id="stochastic-gradient-descent">Stochastic Gradient Descent</h3>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled3.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<h3 id="how-do-you-know-when-to-stop-sgd">How do you know when to stop SGD?</h3>
+
+<ul>
+  <li>Using the value of a loss function is not very intuitive
+    <ul>
+      <li>what does $10^{-3}$ or $10^{-4}$ means?</li>
+    </ul>
+  </li>
+  <li>For that we have popular evaluation metrics
+    <ul>
+      <li>Accuracy (Muti classification)</li>
+      <li>AUROC (Binary Classification)</li>
+      <li>Precision &amp; Recall</li>
+      <li>BLEU Score (Machine Translation)</li>
+      <li>Perplexity (Language modeling or Text generation)</li>
+      <li>FID Score (Image data)</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="train--validation--test">Train &amp; Validation &amp; Test</h1>
+
+<ul>
+  <li>Training Set
+    <ul>
+      <li>Used to train the model</li>
+    </ul>
+  </li>
+  <li>Validation Set
+    <ul>
+      <li>Used this to evaluate model</li>
+    </ul>
+  </li>
+  <li>Test Set
+    <ul>
+      <li>Needs to remain unseen</li>
+      <li>Cannot use this set during training set</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="n-fold-cross-validation">N-fold Cross Validation</h2>
+
+<ul>
+  <li>Testing the model’s performance in diverse train/validation/test splits
+    <ul>
+      <li>In the example below we divide the data into 8 subsets and rotate the training-validation data and test data in each iteration to verify that the results were not out of luck.</li>
+    </ul>
+  </li>
+  <li>Not often used in modern deep learning</li>
+</ul>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled4.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<h2 id="overfitting--underfitting">Overfitting &amp; Underfitting</h2>
+
+<ul>
+  <li>
+    <p>Basically you have to leverage between data complexity vs model capacity</p>
+
+    <figure>
+
+<picture>
+  <!-- Fallback to the original file -->
+  <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled5.png" title="AI_ML_DL">
+
+</picture>
+
+</figure>
+  </li>
+</ul>
+<p>&lt;/figure&gt;</p>
+
+<ul>
+  <li>Doing to well on training data does <strong>not always transmit to good  test performance</strong>
+</li>
+</ul>
+
+<h2 id="the-curse-of-dimensionality">The Curse of Dimensionality</h2>
+
+<ul>
+  <li>When a model is <strong>underfitting</strong> you can add
+    <ul>
+      <li>More features to find a better fit.
+        <ul>
+          <li>Altough you increase linear in the number of the feature.
+            <ul>
+              <li>That increases exponentially the number of data
+    <img src="https://raw.githubusercontent.com/elias-lee/blog2/gh-pages/assets/markdown_assets/AI_notes/Untitled6.png" width="700">
+  <!-- ![The Curse of Dimensionality](https://raw.githubusercontent.com/elias-lee/blog2/gh-pages/assets/markdown_assets/AI_notes/Untitled6.png) -->
+</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Add complexity to the model</li>
+      <li>Train longer</li>
+    </ul>
+  </li>
+  <li>When a model is over fitting you can
+    <ul>
+      <li>Restrict the freedom of your model</li>
+      <li>Downsize the hypothesis space
+  <img src="https://raw.githubusercontent.com/elias-lee/blog2/gh-pages/assets/markdown_assets/AI_notes/Untitled7.png" width="700">
+</li>
+      <li>You can use L1, L2, etc.. (anything that restrict the freedom)</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="popular-classifier-of-ml">Popular Classifier of ML</h1>
+
+<h2 id="logstic-regression">Logstic Regression</h2>
+
+<ul>
+  <li>Probability → Odds → Log of Odds (Logit)</li>
+</ul>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled8.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<h2 id="support-vector-machine">Support Vector Machine</h2>
+
+<ul>
+  <li>Very famous before Deep Learning</li>
+  <li>Maximize the margin between two cases</li>
+  <li>Trained via constrained optimization (KKT condition)
+    <ul>
+      <li>Today you use gradient descent with hinge loss</li>
+    </ul>
+  </li>
+</ul>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled9.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<h2 id="decision-tree">Decision Tree</h2>
+
+<ul>
+  <li>Build a tree based on features</li>
+  <li>Trained via the CART algorithm</li>
+</ul>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled10.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<h2 id="ensembles">Ensembles</h2>
+
+<ul>
+  <li>
+    <p>Use multiple classifiers to improve performance</p>
+  </li>
+  <li>
+    <p><strong><em>Bagging</em></strong></p>
+    <ul>
+      <li>Train multiple classifiers on different subset of data</li>
+      <li>Train multiple classifiers on different subset of features</li>
+    </ul>
+  </li>
+</ul>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled11.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<ul>
+  <li>
+<strong><em>Boosting</em></strong>
+    <ul>
+      <li>(K+1)th classifier tries to correct the k-th classifiers errors.</li>
+      <li>A kind of a chain of classifiers</li>
+    </ul>
+  </li>
+</ul>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled12.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<h1 id="popular-clustering">Popular Clustering</h1>
+
+<h2 id="k-means">K-means</h2>
+
+<ul>
+  <li>Updates membership of each sample using the closest centroid</li>
+  <li>Update the centroid value using all the member samples</li>
+  <li>Repeat</li>
+</ul>
+
+<figure>
+
+  <picture>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/blog2/assets/markdown_assets/AI_notes/Untitled13.png" title="AI_ML_DL">
+
+  </picture>
+
+</figure>
+
+<h1 id="resource">Resource</h1>
+
+<p><a href="https://www.youtube.com/watch?v=WMtgssrJteA" target="_blank" rel="noopener noreferrer">Programming for AI (AI504, Fall 2020), Class 2: Basic Machine Learning</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=Rt3TgEemVYI" target="_blank" rel="noopener noreferrer">Programming for AI (AI504, Fall 2020), Practice 2: Basic Machine Learning</a></p>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2022 Elias Junho Lee. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/blog2/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/blog2/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/blog2/assets/js/common.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+    MathJax = {
+      tex: {
+        inlineMath:[['$','$'],['\\(', '\\)']]
+      },
+      svg:{
+        fontCache:'global'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+  </body>
+</html>
+
